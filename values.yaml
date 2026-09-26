@@ -4,12 +4,12 @@ mongodb:
   storage: 2Gi
 
 node:
-  image: prachigore19/online-backend:v4
+  image: vishalkjadhav45/stud-back:v1
   replicas: 2
   port: 5000
 
 react:
-  image: prachigore19/online-frontend:v4
+  image: aarushtechnologies/student-frontend:v3
   replicas: 2
   port: 80
 
